@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root{
+  --primary: #8A5F41;
+  --secondary: #A77F60;
+
+  --bg: #FAFAFA;
+  --card: #CCD67F;
+
+  --text: #111827;
+  --gray: #6b7280;
+
+  --border: #F3E4C9;
+
+  --heading-font: "Poppins", sans-serif;
+  --body-font: "Inter", sans-serif;
+}
+
+
+
+body{
+  background: var(--dark);
+  color: var(--text);
+  font-family: var(--body-font);
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--heading-font);
+}
